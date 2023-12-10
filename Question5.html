@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 5</title>
+    <style>
+        input[type=text], input[type=password] {
+  
+
+  
+  border: 1px solid #ccc;
+
+}
+
+    </style>
+</head>
+<body>
+    <p>Sign up and Sign in form </p>
+    <h1>Sign up form</h1>
+    <div style="text-align: center;border: 2px;border-color: rgb(161, 38, 38);background-color: grey;border-radius: 5%;padding-left: 25px;padding-right: 25px;">
+        <form action="" method="">
+            <br>
+            <label for="firstname">First Name</label>
+            <input type="text" placeholder="enter firstname" name="firstname" id="firstname" required minlength="3" maxlength="150">
+            <br>
+            <label for="lastname">Last Name</label>
+            <input type="text" placeholder="enter lastname" name="lastname" id="lastname" required minlength="3" maxlength="150">
+            <br>
+    <label for="email">Email   </label>
+    <input type="email" name="email" id="email" placeholder="enter email" required minlength="3" maxlength="150">
+    <br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" placeholder="Enter your password" required minlength="3" maxlength="150">
+    <br>
+    <label for="confirmpassword">Confirm Password</label>
+    <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirm your password" required minlength="3" maxlength="150">
+    <br>
+    <label for="age">Age</label>
+    <input type="number" id="age" placeholder="enter your age" min="0">
+    <p>Please select your Gender:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>  
+    <br>
+    <input type="submit" value="Submit" >
+    <br>
+        </form>
+        <br>
+
+       
+    </div>
+    <p>Sign In Form</p>
+    <div class="login-form" style="text-align: centers;">
+        <h2>Login to your account</h2>
+        <form method="" style="text-align: center;">
+            <label for="login_email">Email id </label>
+          <input type="email"  placeholder="enter email id" id="login_email" required minlength="3" maxlength="150"/>
+          <label for="login_password">Password</label>
+          <input type="password" id="login_password" placeholder="password" required minlength="3" maxlength="150"/>
+          <button type="submit" class="btn">Login</button>
+          <a class="forgot" href="#">Forgot Username?</a>
+        </form>
+      </div>
+</body>
+</html>
